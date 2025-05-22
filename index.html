@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Downloader</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <section class="downloader-container">
+    <h1>Instagram Downloader</h1>
+    <div class="input-group">
+      <label for="get-Url">Instagram URL:</label>
+      <input type="url" id="get-Url" placeholder="Paste Instagram link here" required />
+      <button id="download-button">Download</button>
+    </div>
+    <p class="description">
+      Paste any Instagram post, reel, or story URL above to download the content.
+      The download will start automatically after processing.
+    </p>
+    <div id="status-message"></div>
+  </section>
+
+  <script type="module" src="instagram.js"></script>
+  <script type="module" src="index.js"></script>
+</body>
+</html>
